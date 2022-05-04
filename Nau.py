@@ -5,18 +5,18 @@ class Nau:
         self.y=y
         self.incr=1
     
-    def moure_dreta():
+    def moure_dreta(self):
         pass
         
-    def moure_esquerre():
+    def moure_esquerre(self):
         pass
 
-    def moure_amunt():
+    def moure_amunt(self):
         pass
         
-    def moure_avall():
+    def moure_avall(self):
         pass    
         
-    def mostrar_nau():
+    def mostrar_nau(self):
         pass
 

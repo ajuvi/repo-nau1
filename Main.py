@@ -15,18 +15,20 @@ def main():
 
     sortir=False
     while not sortir:
-        op = input('Entra una opció')
+        op = input('Entra una opció: ')
         if op=='d':
-            print('moure a la dreta')
+            nau.moure_dreta()
         elif op=='a':
-            print('moure a l''esquerre')
+            nau.moure_esquerre()
         elif op=='w':
-            print('moure a amunt')
+            nau.moure_amunt()
         elif op=='s':
-            print('moure a avall')
+            nau.moure_avall()
         elif op=='0':
             sortir=True
             print("Has sortit de l'avió")
+
+        nau.mostrar_nau()
         
 if __name__ == "__main__":
     main()
