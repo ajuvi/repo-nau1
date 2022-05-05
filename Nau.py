@@ -6,17 +6,17 @@ class Nau:
         self.incr=1
     
     def moure_dreta(self):
-        pass
+        self.x=self.x+self.incr
         
     def moure_esquerre(self):
-        pass
+        self.x=self.x-self.incr
 
     def moure_amunt(self):
-        pass
+        self.y=self.y+self.incr
         
     def moure_avall(self):
-        pass    
+        self.y=self.y-self.incr
         
     def mostrar_nau(self):
-        pass
+        print(f"[{self.x},{self.y}]")
 
