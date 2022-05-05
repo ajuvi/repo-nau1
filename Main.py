@@ -5,12 +5,13 @@ def menu():
     print("a- Moure equerre")
     print("d- Moure amunt")
     print("s- Moure moure avall")    
+    print("p- Pintar la nau")
     print("0- Sortir")
 
 def main():
 
     menu()
-    
+
     nau = Nau(0,0)
 
     sortir=False
@@ -24,11 +25,13 @@ def main():
             nau.moure_amunt()
         elif op=='s':
             nau.moure_avall()
+        elif op=='p':
+            nau.pintar()
         elif op=='0':
             sortir=True
             print("Has sortit de l'avió")
 
         nau.mostrar_nau()
-        
+
 if __name__ == "__main__":
     main()

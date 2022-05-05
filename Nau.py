@@ -20,3 +20,7 @@ class Nau:
     def mostrar_nau(self):
         print(f"[{self.x},{self.y}]")
 
+    def pintar(self):
+        print(' **')
+        print('*  *')
+        print('****')
